@@ -1,0 +1,41 @@
+
+
+img{
+    margin: 10px 0px 10px 0px;
+}
+
+#aboutimg{
+    float: left;
+    margin: 20px;
+}
+
+footer{
+    padding-top: 5px;
+    width: 100%;
+    background-color: purple;
+
+}
+
+footer p{
+    margin: 10px 0 0 0;
+    text-align: center;
+    background-color: gray;
+}
+.aboutcont{
+    padding: 30px;
+    margin: 8% 5% 8% 5%;
+  
+}
+
+body{
+    background-color: lightgray;
+}
+
+.boxheader{
+    width: 100%;
+    color: purple;
+    border-bottom: 2px solid purple;
+}
+#submitbutton{
+    background-color: purple;
+}
