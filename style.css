@@ -2,11 +2,14 @@
 
 img{
     margin: 10px 0px 10px 0px;
+    width: 250px;
 }
 
 #aboutimg{
     float: left;
     margin: 20px;
+    width: 200px;
+
 }
 
 footer{
