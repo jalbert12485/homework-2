@@ -1,5 +1,6 @@
-# Homework 2
+# Portfolio
 
 This work is completed as an assignment for a coding bootcamp.
 
-Goal:  The goal of this assignment is to use html, css and boostrap to complete a responsive website that includes my personal information.
+The goal of this project is to create a portfolio providing my personal information and examples and links to my web development work.  There are three pages with an about me page, a contact page and a portfolio page.  This deployed website is [here](https://jalbert12485.github.io/portfolio/).
+![Screenshot](Screenshot.png)
