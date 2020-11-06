@@ -13,9 +13,12 @@ function addProject(dashname, name, description, deployatgithub, deployelsewhere
     );
 }
 
-addProject("covid-data","COVID Tracking","Want to check the latest statistics for COVID in your state?  You can get detailed up to date information here.",true,false,null);
+addProject("limit-electronics","Limit Electronics","Limit Electronics is a one-stop shop for your electronic needs. In this project we created a mock e-commerce site complete with search, add to cart, checkout, inventory management and sales analysis features. Use username: Justin password: password to access admin features.",false,true,null);
 
 addProject("whats-for-dinner","What's For Dinner?","A website meant to recommend dinner and drink options to the user.  After choosing an option, the user can then see the recipe and instructions to make his/her choice.",true,false,null);
+
+
+addProject("covid-data","COVID Tracking","Want to check the latest statistics for COVID in your state?  You can get detailed up to date information here.",true,false,null);
 
 addProject("team-information","Team Information","A node.js program that can take user infomration and save and display employee information.",false,false,null);
 
@@ -68,11 +71,11 @@ deploy.attr("target","_blank");
 deploy.addClass("btn btn-primary m-2");
 deploy.text("View Live Deployment");
 newDiv2.append(deploy);
-}
+} 
 
 if(projects[i].deployelsewhere){
     let deploy=$("<a>");
-    deploy.attr("href",`${project.deployelse}`);
+    deploy.attr("href",`${projects[i].deployelse}`);
     deploy.attr("target","_blank");
     deploy.addClass("btn btn-primary m-2");
     deploy.text("View Live Deployment");
